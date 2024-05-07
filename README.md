@@ -1,8 +1,9 @@
-# EXPERIMENT NO 05 INTERFACING ANALOG OUTPUT SERVO MOTOR WITH ARDUINO
-# NAME: AVINASH T
-# ROLL NO: 212223230026
-# DEPT: ARTIFICIAL INTELLIGENCE AND DATA SCIENCE
-# DATE: 14.03.2023
+# EXPERIMENT NO:05 
+# INTERFACING ANALOG OUTPUT SERVO MOTOR WITH ARDUINO
+## DATE:01-04-2024
+## NAME: AVINASH T
+## ROLL NO: 212223230026
+## DEPT: ARTIFICIAL INTELLIGENCE AND DATA SCIENCE
 ### AIM
 To interface an Analog output (servo motor) and modify the angular displacement of the servo using PWM signal .
 COMPONENTS REQUIRED:
@@ -19,33 +20,20 @@ Servo motors and are constructed out of basic DC motors, by adding:
 •	 an electronic circuit that controls the motor's operation
 Typically, a potentiometer (variable resistor) measures the position of the output shaft at all times so the controller can accurately place and maintain its setting.
 Servo motors are used for angular positioning, such as in radio control airplanes.  They typically have a movement range of 180 deg but can go up to 210 deg.The output shaft of a servo does not rotate freely, but rather is made to seek a particular angular position under electronic control. 
-
-
 ![image](https://user-images.githubusercontent.com/36288975/163544439-1f477927-fcd4-42f0-9ce4-c863fdbf1210.png)
 #### Figure-01 SERVO MOTOR SPLIT VIEW 
 Control 
 An external controller (such as the Arduino) tells the servo where to go with a signal know as pulse proportional modulation (PPM) or pulse code modulation (which is often confused with pulse width modulation, PWM). PWM uses 1 to 2ms out of a 20ms time period to encode its information.
-
- 
  ![image](https://user-images.githubusercontent.com/36288975/163544482-3027136f-7135-4f3d-a23f-8dc2fe04194d.png)
 ### Figure-02 SERVO MOTOR PINS
-
 ![image](https://user-images.githubusercontent.com/36288975/163544513-ca497421-e6ba-4f91-871f-5cfba77f22a8.png)
 ### Figure-03 SERVO MOTOR OVERVIEW CIRCUIT DIAGRAM 
-
 ![image](https://user-images.githubusercontent.com/36288975/163544618-6eb8a7b5-7f1a-428a-8d9f-fd899b145efb.png)
 ### FIGURE 04 
-
 ### CIRCUIT DIAGRAM
-
-
 ![image](https://github.com/AVINASH05T/EXPERIMENT-NO--05-INTERFACING-ANALOG-OUTPUT-SERVO-MOTOR-WITH-ARDUINO-/assets/151514286/9f041f8b-ab33-403d-8434-5c24666bc871)
-
 ![image](https://github.com/AVINASH05T/EXPERIMENT-NO--05-INTERFACING-ANALOG-OUTPUT-SERVO-MOTOR-WITH-ARDUINO-/assets/151514286/3deff1ed-1582-455f-8b03-0270f26a2268)
-
 ![image](https://github.com/AVINASH05T/EXPERIMENT-NO--05-INTERFACING-ANALOG-OUTPUT-SERVO-MOTOR-WITH-ARDUINO-/assets/151514286/5347cc22-85ca-47c6-aa12-a7809288a5b7)
-
-
 ### PROCEDURE:
 1.	Connect the circuit as per the circuit diagram 
 2.	Connect the board to your computer via the USB cable.
@@ -56,7 +44,6 @@ An external controller (such as the Arduino) tells the servo where to go with a 
 7.	Open the file of the program  and verify the error , clear if any errors that are existing 
 8.	Upload the program and check for the physical working. 
 9.	Ensure safety before powering up the device.
-
 ### PROGRAM :
 ```c 
 #include <Servo.h>
@@ -88,6 +75,5 @@ void loop()
   }
 }
 ```
-
 ### RESULTS: 
 Arduino uno interfacing with servo motor is learned and angular position is controlled using PWM signal.
